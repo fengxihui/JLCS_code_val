@@ -115,16 +115,16 @@ def extract_digits_from_image(image_path):
         client = OpenAI(
             #阿里通义
             api_key="xxxxxxxxxxx",
-            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+            base_url="xxxxxxxxxxxx",
             # 字节跳动
             # api_key="xxxxxxxxxxxxxxxxxxx",
-            # base_url="https://ark.cn-beijing.volces.com/api/v3",
+            # base_url="xxxxxxxxxxxxxxxx",
         )
         completion = client.chat.completions.create(
             #通义千问
-            model="qwen-vl-max-latest",
+            model="xxxxxxxxxxxxxx",
             #字节豆包
-            # model="ep-20241209225837-hncm9",
+            # model="xxxxxxxxxxxxxxxxxxx",
             messages=[{"role": "user", "content": [
                 {"type": "text", "text": "图像里的数字部分是什么，请给出字符串形式，字符串两侧用!包围"},
                 {"type": "image_url", "image_url": {"url": image_url}}
