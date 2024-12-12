@@ -115,14 +115,14 @@ def extract_digits_from_image(image_path):
         client = OpenAI(
             #阿里通义
             api_key="xxxxxxxxxxx",
-            base_url="xxxxxxxxxxxx",
-            # 字节跳动
+            base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+            # 字节豆包,字节的只试过一次，具体的模型需要自行试验
             # api_key="xxxxxxxxxxxxxxxxxxx",
             # base_url="xxxxxxxxxxxxxxxx",
         )
         completion = client.chat.completions.create(
             #通义千问
-            model="xxxxxxxxxxxxxx",
+            model="qwen-vl-max-latest",
             #字节豆包
             # model="xxxxxxxxxxxxxxxxxxx",
             messages=[{"role": "user", "content": [
