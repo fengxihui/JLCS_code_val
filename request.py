@@ -256,7 +256,7 @@ def click_and_type_digit(image_path, digit):
 
 
 def val_first():
-    target_window_title = "精灵传说 Ver-3.0.1008 [光辉区 梦幻之吻] baodde ID-4522015"
+    target_window_title = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     try:
         # 获取目标窗口
         target_window = gw.getWindowsWithTitle(target_window_title)[0]
@@ -344,7 +344,7 @@ def val_first():
             print("已实现{看不清，换一张}")
 
 def val_second():
-    target_window_title = "精灵传说 Ver-3.0.1008 [光辉区 梦幻之吻] 枫溪慧4 ID-4522851"
+    target_window_title = "精灵传说 Ver-3.0.1008 [光辉区 梦幻之吻] name ID-xxxxxxx"
     try:
         # 获取目标窗口
         target_window = gw.getWindowsWithTitle(target_window_title)[0]
