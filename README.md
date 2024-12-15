@@ -22,5 +22,8 @@
 
 4.启动request.py时可以用管理员启动终端或者右键管理员启动pycharm
 
-5.API_KEY的获取方式见https://help.aliyun.com/zh/model-studio/developer-reference/get-api-key?spm=a2c4g.11186623.0.0.49e96b63wucOMt，也可以选择使用字节跳动豆包，见https://www.volcengine.com/docs/search?q=%E8%B1%86%E5%8C%85%E5%A4%A7%E6%A8%A1%E5%9E%8B
+5.API_KEY的获取方式见
+https://help.aliyun.com/zh/model-studio/developer-reference/get-api-key?spm=a2c4g.11186623.0.0.49e96b63wucOMt，
+也可以选择使用字节跳动豆包，见
+https://www.volcengine.com/docs/search?q=%E8%B1%86%E5%8C%85%E5%A4%A7%E6%A8%A1%E5%9E%8B
 
